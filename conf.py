@@ -21,6 +21,7 @@
 # sys.path.insert(0, os.path.abspath('.'))
 
 import sphinx_bootstrap_theme
+import datetime
 
 # -- General configuration ------------------------------------------------
 
@@ -51,7 +52,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'Notes'
-copyright = u'2017, Fxf'
+copyright = str(datetime.date.today().year) + u', XueFeng.Fang'
 author = u'Fxf'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -111,8 +112,8 @@ html_theme_options = {
     # Note the "1" or "True" value above as the third argument to indicate
     # an arbitrary url.
     'navbar_links': [
-        ("Examples", "examples"),
-        ("Link", "http://example.com", True),
+        # ("fxf", ""),
+        # ("Link", "www.fxfblog.top", True),
     ],
 
     # Render the next and previous page links in navbar. (Default: true)
