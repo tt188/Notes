@@ -14,6 +14,7 @@
    :maxdepth: 3
 
    Linux/index
+   Git/index
 
 
 * :ref:`genindex`
